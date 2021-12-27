@@ -5,7 +5,7 @@ xcode-select --install
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # install basic utilities
-brew install wget git
+brew install wget
 
 # install iterm2
 brew install Caskroom/cask/iterm2
@@ -22,6 +22,7 @@ $HOME/iTerm2-Color-Schemes/tools/import-scheme.sh 'Dracula'
 brew install zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 cp zshrc $HOME/.zshrc
+source $HOME/.zshrc
 
 # install essential fonts
 git clone https://github.com/powerline/fonts
