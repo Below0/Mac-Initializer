@@ -1,1 +1,1 @@
-# Mac-Initializer
+# Mac Initilizer
