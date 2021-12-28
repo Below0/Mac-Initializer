@@ -5,10 +5,11 @@
 * Iterm2
 * zsh
 * theme and fonts
+* vimrc
 
 사용법
 ```
-chmod 600 ./initialize.sh
+chmod 755 ./initialize.sh
 ./initialize
 ```
 
