@@ -8,7 +8,7 @@
 
 사용법
 ```
-chmod 600 ./initializer.sh
-./initializer
+chmod 600 ./initialize.sh
+./initialize
 ```
 
