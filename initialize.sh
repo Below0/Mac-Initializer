@@ -13,6 +13,8 @@ xcode-select --install
 # 2. install homebrew
 print_status "install homebrew package manager"
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/user/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # 3. install basic utilities
 print_status "install basic uilities"
