@@ -12,4 +12,7 @@
 chmod 755 ./initialize.sh
 ./initialize
 ```
+유의사항
+M1 전용으로 스크립트 변경 (과감하게 하위호환성 포기)
+
 
